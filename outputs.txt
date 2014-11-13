@@ -1,0 +1,54 @@
+
+------------------------------------------------------------------------------
+
+
+
+Dear:Smith
+Please return the following books as soon as possible. It has been requested by a different user.
+
+Book title:Book1
+
+
+
+
+
+
+Thank you very much, Newcastle CS Library
+
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+
+
+
+Dear:Brown
+Please return the following books as soon as possible. It has been requested by a different user.
+
+Book title:book4
+
+
+
+
+
+
+Thank you very much, Newcastle CS Library
+
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+
+
+
+Dear:Smith
+Please return the following books as soon as possible. It has been requested by a different user.
+
+Book title:book3
+
+
+
+
+
+
+Thank you very much, Newcastle CS Library
+
+------------------------------------------------------------------------------

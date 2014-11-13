@@ -1,0 +1,518 @@
+
+***************************************************
+Welcome To The Library
+Please choosing one of the following:
+ f - to finish running the program
+ b - Display Books
+ u - Display Users
+ i - Issue books and update the library
+ r - Return books and update the library
+***************************************************
+d
+Invalid instruction, please try again.
+
+***************************************************
+Welcome To The Library
+Please choosing one of the following:
+ f - to finish running the program
+ b - Display Books
+ u - Display Users
+ i - Issue books and update the library
+ r - Return books and update the library
+***************************************************
+b
+
+Title: book3
+Author: Alpha, AuthorJack
+Borrowed: false
+------------------------------------------------
+Title: book2
+Author: Beta, AuthorTira
+Borrowed: false
+------------------------------------------------
+Title: Book1
+Author: Cat, AuthorNerd
+Borrowed: false
+------------------------------------------------
+Title: book4
+Author: Hog, AuthorSam
+Borrowed: false
+------------------------------------------------
+Title: Finite Transition Systems
+Author: Kate, AuthorJordan
+Borrowed: false
+------------------------------------------------
+***************************************************
+Welcome To The Library
+Please choosing one of the following:
+ f - to finish running the program
+ b - Display Books
+ u - Display Users
+ i - Issue books and update the library
+ r - Return books and update the library
+***************************************************
+u
+
+Username: Brown , Emma 
+Number of Books held: 0
+Username: Smith , Anna 
+Number of Books held: 0
+Username: Williams , John 
+Number of Books held: 0
+***************************************************
+Welcome To The Library
+Please choosing one of the following:
+ f - to finish running the program
+ b - Display Books
+ u - Display Users
+ i - Issue books and update the library
+ r - Return books and update the library
+***************************************************
+i
+
+ To issue a book, please type the user surname:   
+smith
+
+ User has been found, please type in the book name that you would like to issue:  
+book1
+
+Book is found, and it is not borrowed
+The following Book: Book1 Been issued to: 
+Username: Smith , Anna 
+Number of Books held: 1
+
+***************************************************
+Welcome To The Library
+Please choosing one of the following:
+ f - to finish running the program
+ b - Display Books
+ u - Display Users
+ i - Issue books and update the library
+ r - Return books and update the library
+***************************************************
+i
+
+ To issue a book, please type the user surname:   
+smith
+
+ User has been found, please type in the book name that you would like to issue:  
+book2
+
+Book is found, and it is not borrowed
+The following Book: book2 Been issued to: 
+Username: Smith , Anna 
+Number of Books held: 2
+
+***************************************************
+Welcome To The Library
+Please choosing one of the following:
+ f - to finish running the program
+ b - Display Books
+ u - Display Users
+ i - Issue books and update the library
+ r - Return books and update the library
+***************************************************
+i
+
+ To issue a book, please type the user surname:   
+smith
+
+ User has been found, please type in the book name that you would like to issue:  
+book3
+
+Book is found, and it is not borrowed
+The following Book: book3 Been issued to: 
+Username: Smith , Anna 
+Number of Books held: 3
+
+***************************************************
+Welcome To The Library
+Please choosing one of the following:
+ f - to finish running the program
+ b - Display Books
+ u - Display Users
+ i - Issue books and update the library
+ r - Return books and update the library
+***************************************************
+i
+
+ To issue a book, please type the user surname:   
+brown
+
+ User has been found, please type in the book name that you would like to issue:  
+book4
+
+Book is found, and it is not borrowed
+The following Book: book4 Been issued to: 
+Username: Brown , Emma 
+Number of Books held: 1
+
+***************************************************
+Welcome To The Library
+Please choosing one of the following:
+ f - to finish running the program
+ b - Display Books
+ u - Display Users
+ i - Issue books and update the library
+ r - Return books and update the library
+***************************************************
+b
+
+Title: book3
+Author: Alpha, AuthorJack
+Borrowed: true
+------------------------------------------------
+Title: book2
+Author: Beta, AuthorTira
+Borrowed: true
+------------------------------------------------
+Title: Book1
+Author: Cat, AuthorNerd
+Borrowed: true
+------------------------------------------------
+Title: book4
+Author: Hog, AuthorSam
+Borrowed: true
+------------------------------------------------
+Title: Finite Transition Systems
+Author: Kate, AuthorJordan
+Borrowed: false
+------------------------------------------------
+***************************************************
+Welcome To The Library
+Please choosing one of the following:
+ f - to finish running the program
+ b - Display Books
+ u - Display Users
+ i - Issue books and update the library
+ r - Return books and update the library
+***************************************************
+u
+
+Username: Brown , Emma 
+Number of Books held: 1
+Username: Smith , Anna 
+Number of Books held: 3
+Username: Williams , John 
+Number of Books held: 0
+***************************************************
+Welcome To The Library
+Please choosing one of the following:
+ f - to finish running the program
+ b - Display Books
+ u - Display Users
+ i - Issue books and update the library
+ r - Return books and update the library
+***************************************************
+i
+
+ To issue a book, please type the user surname:   
+williams
+
+ User has been found, please type in the book name that you would like to issue:  
+book1
+Book: Book1 is borrowed. 
+An appropriate letter will be generated for: 
+Username: Smith , Anna 
+Number of Books held: 3
+
+***************************************************
+Welcome To The Library
+Please choosing one of the following:
+ f - to finish running the program
+ b - Display Books
+ u - Display Users
+ i - Issue books and update the library
+ r - Return books and update the library
+***************************************************
+i
+
+ To issue a book, please type the user surname:   
+smith
+
+ User has been found, please type in the book name that you would like to issue:  
+book4
+Book: book4 is borrowed. 
+An appropriate letter will be generated for: 
+Username: Brown , Emma 
+Number of Books held: 1
+
+***************************************************
+Welcome To The Library
+Please choosing one of the following:
+ f - to finish running the program
+ b - Display Books
+ u - Display Users
+ i - Issue books and update the library
+ r - Return books and update the library
+***************************************************
+r
+Please type  in user's surname who is returning the book: 
+smith
+Please type  in book title which you would like to return: 
+book2
+Book is successfuly returned.
+
+***************************************************
+Welcome To The Library
+Please choosing one of the following:
+ f - to finish running the program
+ b - Display Books
+ u - Display Users
+ i - Issue books and update the library
+ r - Return books and update the library
+***************************************************
+r
+Please type  in user's surname who is returning the book: 
+williams
+Please type  in book title which you would like to return: 
+book4
+User who borrowed the book is not the same as the user returing it....
+
+***************************************************
+Welcome To The Library
+Please choosing one of the following:
+ f - to finish running the program
+ b - Display Books
+ u - Display Users
+ i - Issue books and update the library
+ r - Return books and update the library
+***************************************************
+b
+
+Title: book3
+Author: Alpha, AuthorJack
+Borrowed: true
+------------------------------------------------
+Title: book2
+Author: Beta, AuthorTira
+Borrowed: false
+------------------------------------------------
+Title: Book1
+Author: Cat, AuthorNerd
+Borrowed: true
+------------------------------------------------
+Title: book4
+Author: Hog, AuthorSam
+Borrowed: true
+------------------------------------------------
+Title: Finite Transition Systems
+Author: Kate, AuthorJordan
+Borrowed: false
+------------------------------------------------
+***************************************************
+Welcome To The Library
+Please choosing one of the following:
+ f - to finish running the program
+ b - Display Books
+ u - Display Users
+ i - Issue books and update the library
+ r - Return books and update the library
+***************************************************
+u
+
+Username: Brown , Emma 
+Number of Books held: 1
+Username: Smith , Anna 
+Number of Books held: 2
+Username: Williams , John 
+Number of Books held: 0
+***************************************************
+Welcome To The Library
+Please choosing one of the following:
+ f - to finish running the program
+ b - Display Books
+ u - Display Users
+ i - Issue books and update the library
+ r - Return books and update the library
+***************************************************
+r
+Please type  in user's surname who is returning the book: 
+testinvailduser
+User is not found
+
+***************************************************
+Welcome To The Library
+Please choosing one of the following:
+ f - to finish running the program
+ b - Display Books
+ u - Display Users
+ i - Issue books and update the library
+ r - Return books and update the library
+***************************************************
+r
+Please type  in user's surname who is returning the book: 
+smith
+Please type  in book title which you would like to return: 
+testinvaildbook
+The requried book is not found, please try again from the main menu, thanks....
+
+***************************************************
+Welcome To The Library
+Please choosing one of the following:
+ f - to finish running the program
+ b - Display Books
+ u - Display Users
+ i - Issue books and update the library
+ r - Return books and update the library
+***************************************************
+i
+
+ To issue a book, please type the user surname:   
+testivailduser
+User: testivailduser has not been found
+
+***************************************************
+Welcome To The Library
+Please choosing one of the following:
+ f - to finish running the program
+ b - Display Books
+ u - Display Users
+ i - Issue books and update the library
+ r - Return books and update the library
+***************************************************
+i
+
+ To issue a book, please type the user surname:   
+smith
+
+ User has been found, please type in the book name that you would like to issue:  
+testivaildbook
+Book: testivaildbook is not found!
+
+***************************************************
+Welcome To The Library
+Please choosing one of the following:
+ f - to finish running the program
+ b - Display Books
+ u - Display Users
+ i - Issue books and update the library
+ r - Return books and update the library
+***************************************************
+i
+
+ To issue a book, please type the user surname:   
+smith
+
+ User has been found, please type in the book name that you would like to issue:  
+book3
+Book: book3 is borrowed. 
+An appropriate letter will be generated for: 
+Username: Smith , Anna 
+Number of Books held: 2
+
+***************************************************
+Welcome To The Library
+Please choosing one of the following:
+ f - to finish running the program
+ b - Display Books
+ u - Display Users
+ i - Issue books and update the library
+ r - Return books and update the library
+***************************************************
+r
+Please type  in user's surname who is returning the book: 
+brown
+Please type  in book title which you would like to return: 
+book4
+Book is successfuly returned.
+
+***************************************************
+Welcome To The Library
+Please choosing one of the following:
+ f - to finish running the program
+ b - Display Books
+ u - Display Users
+ i - Issue books and update the library
+ r - Return books and update the library
+***************************************************
+i
+
+ To issue a book, please type the user surname:   
+smith
+
+ User has been found, please type in the book name that you would like to issue:  
+book4
+
+Book is found, and it is not borrowed
+The following Book: book4 Been issued to: 
+Username: Smith , Anna 
+Number of Books held: 3
+
+***************************************************
+Welcome To The Library
+Please choosing one of the following:
+ f - to finish running the program
+ b - Display Books
+ u - Display Users
+ i - Issue books and update the library
+ r - Return books and update the library
+***************************************************
+b
+
+Title: book3
+Author: Alpha, AuthorJack
+Borrowed: true
+------------------------------------------------
+Title: book2
+Author: Beta, AuthorTira
+Borrowed: false
+------------------------------------------------
+Title: Book1
+Author: Cat, AuthorNerd
+Borrowed: true
+------------------------------------------------
+Title: book4
+Author: Hog, AuthorSam
+Borrowed: true
+------------------------------------------------
+Title: Finite Transition Systems
+Author: Kate, AuthorJordan
+Borrowed: false
+------------------------------------------------
+***************************************************
+Welcome To The Library
+Please choosing one of the following:
+ f - to finish running the program
+ b - Display Books
+ u - Display Users
+ i - Issue books and update the library
+ r - Return books and update the library
+***************************************************
+u
+
+Username: Brown , Emma 
+Number of Books held: 0
+Username: Smith , Anna 
+Number of Books held: 3
+Username: Williams , John 
+Number of Books held: 0
+***************************************************
+Welcome To The Library
+Please choosing one of the following:
+ f - to finish running the program
+ b - Display Books
+ u - Display Users
+ i - Issue books and update the library
+ r - Return books and update the library
+***************************************************
+i
+
+ To issue a book, please type the user surname:   
+smith
+
+ User has been found, please type in the book name that you would like to issue:  
+Finite Transition Systems
+User: Smith , Anna has maximum number of book, Anna can't borrow any more books.
+
+***************************************************
+Welcome To The Library
+Please choosing one of the following:
+ f - to finish running the program
+ b - Display Books
+ u - Display Users
+ i - Issue books and update the library
+ r - Return books and update the library
+***************************************************
+f
+Library is terminated
